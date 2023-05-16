@@ -1,7 +1,7 @@
 import { useSearchParams } from "react-router-dom";
 
 const Links = () => {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams, setSearchParams]: any = useSearchParams();
 
   const number: any = searchParams.get("number");
   return (
