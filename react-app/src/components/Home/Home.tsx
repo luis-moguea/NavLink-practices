@@ -5,7 +5,8 @@ const home = () => {
 
   return (
     <>
-      <h1>HOME</h1>;<h3>Testing useParams {id}</h3>
+      <h1>HOME</h1>
+      <h3>Testing useParams {id}</h3>
     </>
   );
 };
