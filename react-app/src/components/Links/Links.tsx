@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 const Links = () => {
   const [searchParams, setSearchParams] = useSearchParams();
 
-  const number = searchParams.get("number");
+  const number: any = searchParams.get("number");
   return (
     <>
       <ul>
